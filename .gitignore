@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# cursor
+.cursorignore
+
+# Secrets
+.env*
+!.env.example
+
+# Personal AI settings
+.claude/settings.local.json
+CLAUDE.local.md
+.cursor/mcp.json
